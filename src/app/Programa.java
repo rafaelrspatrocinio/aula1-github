@@ -1,9 +1,14 @@
 package app;
 
+import entities.Pessoa;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.fala();
 
 	}
 
