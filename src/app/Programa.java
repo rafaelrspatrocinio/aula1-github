@@ -13,9 +13,11 @@ public class Programa {
 		Pessoa pessoa = new Pessoa();
 		
 		pessoa.setFala(sc.next());
+		
 		System.out.println(pessoa.getFala());
+		
+		System.out.println("Uuuuuuuuuuu!");
 		
 		sc.close();
 	}
-
 }
