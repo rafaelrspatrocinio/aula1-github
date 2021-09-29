@@ -2,7 +2,16 @@ package entities;
 
 public class Pessoa {
 	
-	public void fala() {
-		System.out.println("Bom dia");
+	private String fala;
+
+	public String getFala() {
+		return fala;
 	}
+
+	public void setFala(String fala) {
+		this.fala = fala;
+	}
+	
+	
+
 }
